@@ -10,8 +10,8 @@ function App() {
       <Navbar/>
       <Banner/>
       <Movielist title="Netflix Original" fetchUrl={requests.fetchnetflixoriginal} islargerow/>
-      <Movielist title="Top Rated Movies" fetchUrl={requests.fetchtopratedmovies}/>
-      {/* <Movielist title="Popular Movies" fetchUrl={requests.fetchpopularmovies}/> */}
+      {/* <Movielist title="Top Rated Movies" fetchUrl={requests.fetchtopratedmovies}/> */}
+      <Movielist title="Popular Movies" fetchUrl={requests.fetchpopularmovies}/>
       <Movielist title="Action Movies" fetchUrl={requests.fecthactionmovies} />
       <Movielist title="Horrer Movies" fetchUrl={requests.fetchhorrormovies}/>
       <Movielist title="Romantic Moives" fetchUrl={requests.fetchromancemovies}/>
