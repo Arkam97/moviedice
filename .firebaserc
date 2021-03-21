@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "moviedice-33628"
+    "default": "moviedice-33628",
+    "netflix": "moviedice-33628"
   }
 }
